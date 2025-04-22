@@ -1,11 +1,14 @@
+import { Box, Typography } from "@mui/material";
 import AppLayout from "../components/layout/AppLayout";
+import { grayColor } from "../components/constants/color";
 
 const Home=()=>{
   return (
-    <div>
-      <h1>Home</h1>
-      <p>Welcome to the home page!</p>
-    </div>
+    <Box bgcolor={grayColor} height={"100%"}> 
+      <Typography p={"2rem"} variant="h5" textAlign="center">
+        Select a friend to start chatting
+      </Typography>
+    </Box>
   );
 }
 

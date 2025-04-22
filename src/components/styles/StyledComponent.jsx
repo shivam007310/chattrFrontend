@@ -21,3 +21,13 @@ export const Link = styled(LinkComponent)`
     background-color: rgba(0, 0, 0, 0.1);
   }
 `;
+
+export const InputBox = styled("input")`
+  width: 100%;
+  height: 100%;
+  padding: 0 3rem;
+  border-radius: 1.5rem;
+  border: none;
+  outline: none;
+  background-color: #f5f5f5;
+`;
